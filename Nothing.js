@@ -38,3 +38,13 @@ function generateUUID() {
 
 example 5
 
+function getToday() {
+    const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const today = new Date();
+    const dayOfWeek = today.getDay(); 
+    return daysOfWeek[dayOfWeek];
+}
+
+const today = getToday();
+console.log("Today is " + today);
+
