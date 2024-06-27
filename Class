@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selector Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="common-style">This is heading 1</h1> <!-- .common-style class -->
+    <h2 class="common-style">This is heading 2</h2> <!-- .common-style class -->
+    <p class="common-style">This is a paragraph with some text.</p> <!-- .common-style class -->
+    <div class="common-style">This is a div with some content.</div> <!-- .common-style class -->
+    <span class="common-style">This is a span element.</span> <!-- .common-style class -->
+</body>
+</html>
+
+.common-style {
+    color: blue;               
+    font-size: 20px;           
+    font-family: Arial, sans-serif;
+    margin: 10px;              
+    padding: 5px;              
+    border: 1px solid gray;    
+}
+
+________________________________________________________________
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selector Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="common">This is heading 1</h1>
+    <h2 class="common">This is heading 2</h2>
+    <p class="common">This is a paragraph with some text.</p>
+    <div class="common">This is a div with some content.</div>
+    <span class="common">This is a span element.</span>
+</body>
+</html>
+
+
+.common {
+    color: blue;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+________________________________________________________
+
